@@ -16,6 +16,18 @@ form button {
 
 header h1{
     margin-top: 0;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ecf0f1;
+}
+
+.link-loja {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ecf0f1;
+    display: inline-block;
+}
+
+.nome-loja {
+    margin-bottom: 0;
 }
 
 body{
@@ -33,7 +45,7 @@ body, input, textarea {
 }
 
 header {
-    padding: 16px 0; 
+    padding: 0; 
     background-color: #182c61; /* Cor de fundo do cabeçalho */
     color: #ecf0f1; /* Cor dos textos do cabeçalho */
 }
@@ -47,6 +59,15 @@ header nav li {
 header nav li a {
     color: #ecf0f1;
     text-decoration: none; 
+}
+
+.cabecalho {
+    background-color: rgba(24, 44, 97, 0.7); /* Cor de fundo com transparência */
+    position: -webkit-sticky; /* Mantém o cabeçalho fixo na tela */
+    position: sticky;
+    top: 0; /* Ancora o cabeçalho ao topo */
+    left: 0; /* Ancora o cabeçalho à esquerda */
+    width: 100%; /* Largura total da tela */
 }
 
 .container {
